@@ -20,9 +20,9 @@
 		</header>
 		<div class="entry-summary">
 		<?php if ( has_post_thumbnail() ) : ?>
- 			 <figure><?php the_post_thumbnail('full'); ?></figure>
+  			<figure><?php the_post_thumbnail('full'); ?></figure>
 		<?php endif; ?>
-			<?php the_content(); ?>
+			<?php the_excerpt(); ?>
 		</div>
 		<footer class="entry-footer">
 				<span class="entry-terms comments author">
